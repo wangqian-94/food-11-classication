@@ -2,9 +2,9 @@ import numpy as np
 from training import model_best
 import torch
 from Dataset import batch_size
-from torch.utils.data import DataLoader,ImgDataset
+from torch.utils.data import DataLoader
 from read_images import test_x
-from Dataset import test_transform
+from Dataset import test_transform,ImgDataset
 
 
 

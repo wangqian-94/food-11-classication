@@ -4,8 +4,8 @@ import torch.nn as nn
 import torch
 import numpy as np
 from read_images import train_x, train_y, val_x, val_y
-from Dataset import train_set,val_set,train_loader,val_loader,train_transform,batch_size
-from torch.utils.data import DataLoader,ImgDataset
+from Dataset import train_set,val_set,train_loader,val_loader,train_transform,batch_size,ImgDataset
+from torch.utils.data import DataLoader
 
 
 model = Classifier().cuda()     # 训练模型   # .cuda():用GPU加速
